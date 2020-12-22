@@ -6,7 +6,7 @@ const boldStyle = { root: { fontWeight: FontWeights.semibold } };
 export const App: React.FunctionComponent = () => {
   return (
     <Stack
-      horizontalAlign="center"
+      horizontalAlign="start"
       verticalAlign="center"
       verticalFill
       styles={{
