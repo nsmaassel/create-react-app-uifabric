@@ -58,8 +58,10 @@ $standard-spacing: 20px;
       flex: 1 0 30%;
 
       .breadcrumbs {
-        button{
-          @include ms-fontSize-xs;
+        margin-bottom: $standard-spacing;
+
+        button {
+          @include ms-fontSize-s;
         }
       }
 
@@ -78,13 +80,30 @@ $standard-spacing: 20px;
     }
 
     .rightPane {
+      position: relative;
       box-shadow: $ms-depth-shadow-8; // Using variables
       flex: 3 0 70%;
       margin-left: $standard-spacing * 2;
 
       .stepImage {
+        position: absolute;
         max-width: 100%;
       }
+
+      .buttonContainer {
+        //border: 1px solid red;
+        position: absolute;
+
+        .markerButton {
+          //background-color: $ms-color-themePrimary;
+          background-color: transparent;
+          color: transparent;
+          border-radius: 50%;
+          width: 30px;
+          height: 30px;
+        }
+      }
     }
+
   }
 }

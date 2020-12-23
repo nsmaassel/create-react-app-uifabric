@@ -7,21 +7,21 @@
       "stepName": "Welcome",
       "stepDetails": "Welcome. This self-guided demo will show you how to streamline your processes, make smarter decisions, and accelerate growth with Microsoft Dynamics 365 Business Central.",
       "stepImageUrl": "~/assets/businessCentral/step1.png",
-      "coachMarkCoordinates": [0.4, 0.5]
+      "coachMarkCoordinates": [40, 50]
     },
     {
       "stepNumber": 2,
       "stepName": "Understand the health of your business",
       "stepDetails": "Understanding the health of your business is essential to success. Business Central makes it easy to keep track of sales, inventory levels and valuations, project overruns, and margins.\nThe role-based home page offers quick access to key metrics and activities. Move down to see more.",
       "stepImageUrl": "~/assets/businessCentral/step2.png",
-      "coachMarkCoordinates": [0.4, 0.5]
+      "coachMarkCoordinates": [40, 50]
     },
     {
       "stepNumber": 3,
       "stepName": "Simplified process with Excel integration",
       "stepDetails": "Dynamics 365 Business Central allows you to create and modify journal entries directly with Excel. The next scenario demonstrates this capability.",
       "stepImageUrl": "~/assets/businessCentral/step3.png",
-      "coachMarkCoordinates": [0.2, 0.2],
+      "coachMarkCoordinates": [20, 20],
       "stepInstructions": "Select General Journal, Default."
     },
     {
@@ -29,7 +29,7 @@
       "stepName": "Improved communication with Outlook integration",
       "stepDetails": "Business Central is also embedded in Outlook. This provides you with a simple way to enter purchase invoices within the context of an email, all within an application you already use.",
       "stepImageUrl": "~/assets/businessCentral/step4.png",
-      "coachMarkCoordinates": [0.2, 0.2],
+      "coachMarkCoordinates": [20, 20],
       "stepInstructions": "Select Contact Insights."
     },
     {
@@ -37,14 +37,14 @@
       "stepName": "Intuitive features to drive efficiency",
       "stepDetails": "Exploring more features within Business Central allows you to view more options for other roles. Here, your project managers have an intuitive way to maintain jobs, time sheets, and invoices, all in one place.",
       "stepImageUrl": "~/assets/businessCentral/step5.png",
-      "coachMarkCoordinates": [0.55, 0.6]
+      "coachMarkCoordinates": [55, 60]
     },
     {
       "stepNumber": 6,
       "stepName": "Summary",
       "stepDetails": "Dynamics 365 Business Central is designed to empower you to make quicker, better-informed decisions. With deep integration with tools like Outlook and Excel, an intuitive interface, and AI-driven insights, Business Central makes it easy to manage sales, inventory, and other processes as you chart your business growth.",
       "stepImageUrl": "~/assets/businessCentral/step6.png",
-      "coachMarkCoordinates": [0.5, 0.5]
+      "coachMarkCoordinates": [50, 50]
     }
   ]
 }
