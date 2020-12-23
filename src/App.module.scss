@@ -1,0 +1,90 @@
+// Import all mixins and variables.
+@import '~@fluentui/react/dist/sass/References';
+
+$standard-spacing: 20px;
+
+.tourContainer {
+  @include ms-fontWeight-regular;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  margin: 0 10em;
+  font-family: "Segoe UI", serif;
+  padding: $standard-spacing 0;
+
+  .header {
+    display: flex;
+    flex: 0 1 100%;
+    margin: $standard-spacing $standard-spacing * 2;
+    justify-content: space-between;
+
+    .titleContainer {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: flex-start;
+      font-size: 50px;
+      @include ms-font-xl;
+      @include ms-fontWeight-semibold;
+      color: #737373;
+
+      .logoIcon {
+        height: 30px;
+        margin-right: $standard-spacing;
+      }
+
+      .title {
+        //Title pipe
+        border-left: 2px solid #000;
+        padding-left: 14px;
+      }
+    }
+
+    .buttons {
+      justify-content: flex-end;
+
+      .requestTrialButton, .displayModeButton {
+        margin-left: $standard-spacing;
+      }
+    }
+  }
+
+  .body {
+    display: flex;
+    flex-direction: row;
+    margin: $standard-spacing $standard-spacing * 2;
+
+    .leftPane {
+      flex: 1 0 30%;
+
+      .breadcrumbs {
+        button{
+          @include ms-fontSize-xs;
+        }
+      }
+
+      .stepTitle {
+        @include ms-fontWeight-semibold;
+        @include ms-fontColor-blue;
+      }
+
+      .stepInstructions {
+        @include ms-fontWeight-semibold;
+      }
+
+      .prevButton {
+        margin-right: $standard-spacing;
+      }
+    }
+
+    .rightPane {
+      box-shadow: $ms-depth-shadow-8; // Using variables
+      flex: 3 0 70%;
+      margin-left: $standard-spacing * 2;
+
+      .stepImage {
+        max-width: 100%;
+      }
+    }
+  }
+}
